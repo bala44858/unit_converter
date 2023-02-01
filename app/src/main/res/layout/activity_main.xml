@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/overallbg"
+
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+  <androidx.appcompat.widget.LinearLayoutCompat
+      android:layout_width="match_parent"
+        android:background="@drawable/bg1"
+      android:orientation="vertical"
+      android:layout_height="wrap_content"
+
+        >
+    <TextView
+        android:layout_width="50sp"
+        android:layout_height="30sp"
+        android:background="@drawable/ic_baseline_arrow_forward_24"
+        />
+  <TextView
+      android:layout_marginTop="30sp"
+      android:layout_width="match_parent"
+      android:layout_height="50dp"
+      android:text="home"
+      android:textSize="30sp"
+      android:textColor="#F8FBFB"
+      android:layout_marginLeft="10sp"
+
+      />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Unit Converter"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:textColor="#F8FBFB"
+        android:layout_marginLeft="10sp"
+
+        />
+  </androidx.appcompat.widget.LinearLayoutCompat>
+  <androidx.appcompat.widget.LinearLayoutCompat
+      android:layout_width="match_parent"
+      android:layout_margin="10sp"
+      android:orientation="vertical"
+      android:layout_height="wrap_content">
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+
+        android:background="@drawable/bg2"
+        android:layout_margin="10sp"
+        android:padding="10sp"
+        android:layout_height="50dp">
+      <TextView
+          android:layout_gravity="center"
+          android:layout_width="wrap_content"
+          android:textSize="20sp"
+          android:id="@+id/c1"
+          android:textColor="#5E626A"
+          android:layout_height="wrap_content"
+          android:textStyle="bold"
+          android:text="Meter To KiloMeter  "
+          />
+       <TextView
+           android:layout_width="30sp"
+           android:layout_height="30sp"
+           android:background="@drawable/ic_baseline_arrow_forward_ios_24"/>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:background="@drawable/bg2"
+        android:layout_margin="10sp"
+        android:padding="10sp"
+        android:layout_height="50dp">
+      <TextView
+          android:layout_gravity="center"
+          android:layout_width="wrap_content"
+          android:textSize="20sp"
+          android:textColor="#5E626A"
+          android:layout_height="wrap_content"
+          android:textStyle="bold"
+          android:id="@+id/c2"
+          android:text="Meter To Centimeter  "
+          />
+      <TextView
+          android:layout_width="30sp"
+          android:layout_height="30sp"
+          android:background="@drawable/ic_baseline_arrow_forward_ios_24"/>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:background="@drawable/bg2"
+        android:layout_margin="10sp"
+        android:padding="10sp"
+        android:layout_height="50dp">
+      <TextView
+          android:layout_gravity="center"
+          android:layout_width="wrap_content"
+          android:textSize="20sp"
+          android:textColor="#5E626A"
+          android:layout_height="wrap_content"
+          android:textStyle="bold"
+          android:text="KiloMeter To Meter  "
+          />
+      <TextView
+          android:layout_width="30sp"
+          android:layout_height="30sp"
+          android:id="@+id/c3"
+          android:background="@drawable/ic_baseline_arrow_forward_ios_24"/>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    \<androidx.appcompat.widget.LinearLayoutCompat
+      android:layout_width="match_parent"
+      android:orientation="horizontal"
+      android:background="@drawable/bg2"
+      android:layout_margin="10sp"
+      android:padding="10sp"
+      android:layout_height="50dp">
+    <TextView
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:textSize="20sp"
+        android:textColor="#5E626A"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:id="@+id/c4"
+        android:text="Feet To Meter  "
+        />
+    <TextView
+        android:layout_width="30sp"
+        android:layout_height="30sp"
+        android:background="@drawable/ic_baseline_arrow_forward_ios_24"/>
+
+  </androidx.appcompat.widget.LinearLayoutCompat>
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:background="@drawable/bg2"
+        android:layout_margin="10sp"
+        android:padding="10sp"
+        android:layout_height="50dp">
+      <TextView
+          android:layout_gravity="center"
+          android:layout_width="wrap_content"
+          android:textSize="20sp"
+          android:textColor="#5E626A"
+          android:layout_height="wrap_content"
+          android:textStyle="bold"
+          android:id="@+id/c5"
+          android:text="inch to feet  "
+          />
+      <TextView
+          android:layout_width="30sp"
+          android:layout_height="30sp"
+          android:background="@drawable/ic_baseline_arrow_forward_ios_24"/>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+  </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.appcompat.widget.LinearLayoutCompat>
